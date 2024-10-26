@@ -1,0 +1,159 @@
+
+@media screen and (max-width:881px) {
+    main{
+        height: 1010px;
+    }
+    .container-l , .container-r{
+        height: 40%;
+    }
+    p.card-caption{
+        font-size: 2.8vw;
+    }
+}
+@media screen and (max-width:700px) {
+    p.card-caption{
+        font-size: 3vw;
+    }
+    .h-item1{
+        font-size: 12vw;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .h-item2{
+        width: 100%;
+        font-size: 3vw;
+        margin-left: 40px;
+    }
+    .button{
+        margin-left: 0px;
+    }
+    .button1{
+        width: 40%;
+        font-size: 2.6vw;
+    }
+    .button2{
+        width: 50%;
+        font-size: 2.6vw;
+    }
+    .button{
+        margin-left: 25px;
+    }
+
+    
+}
+@media screen and (max-width:600px) {
+
+    p.card-caption{
+        font-size: 4vw;
+    }
+    
+}
+@media screen and (min-width:1080px) {
+    .button1 , .button2{
+
+      font-size: 1.5vw;
+     
+    }
+    .h-item1{
+        font-size: 11vw;
+        width: 95% ;
+    }
+    .h-item2{
+        font-size: 2.2vw;
+    }
+
+    
+}
+@media screen and (max-width:915px) {
+    
+    
+    .button2:hover{
+        text-shadow: 2px 2px 8px whitesmoke, 4px 4px 8px rgb(0, 0, 0);
+        box-shadow: 3px 3px 0px aliceblue, 4px 4px 200px darkcyan, -3px -3px 0px rgb(254, 254, 254), -3px -3px 200px darkcyan;
+        cursor: pointer;
+    }
+    .button2:hover::before{
+        content: " ";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: aliceblue;
+        left: -3px;
+        bottom: -3px;
+        border-radius: 3px 80px 3px 10px;
+    }
+    .button2:hover::after{
+         content: " ";
+         width: 15px;
+         height: 15px;
+         background-color: aliceblue;
+         position: absolute;
+         top: -3px;
+         right: -3px;
+         border-radius: 3px 10px 3px 80px;
+    }
+    .button1:hover{
+        text-shadow: 2px 2px 8px whitesmoke, 4px 4px 8px rgb(0, 0, 0);
+        box-shadow: 3px 3px 0px aliceblue, 4px 4px 200px darkcyan, -3px -3px 0px rgb(254, 254, 254), -3px -3px 200px darkcyan;
+        cursor: pointer;
+       
+    }
+    .button1:hover::after{
+        content: " ";
+        width: 15px;
+        height: 15px;
+        background-color: aliceblue;
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        border-radius: 3px 10px 3px 80px;
+
+    }
+    .button1:hover::before{
+        content: " ";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: aliceblue;
+        left: -3px;
+        bottom: -3px;
+        border-radius: 3px 80px 3px 10px;
+
+    }
+}
+
+@media screen and ( min-width:800px) {
+    p.card-caption{
+        font-size: 2.2vw;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    p.card-caption{
+        font-size: 1.5vw;
+    }
+    
+    
+}
+@media screen and (min-width:1500px) {
+    
+        .button1 , .button2 {
+            height: 9vh;
+        }  
+}
+@media screen and (max-width:530px) {
+
+    div.container1{
+        width:80% ;
+    }
+    .h-item1{
+        font-size: 17vw;
+    }
+    .h-item2{
+        font-size:4.5vw ;
+    }
+    .button1 , .button2 {
+        font-size: 4vw;
+    }
+
+}
