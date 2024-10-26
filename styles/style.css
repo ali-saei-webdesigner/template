@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:  "dileto";
+    src: url(../assets/fonts/Dileto.ttf) format(woff);
+}
+@font-face {
+  font-family: "barry" ;
+  src: url(../assets/fonts/Barry\ Kades[editby].ttf) format(woff);
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/images/DcQwnZGkzecdBWs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+   
+
+   
+}
+div.container1{
+  margin-left: 15px;
+  width: 55vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h-item1{
+  
+  z-index: 10;
+  font-family: "barry";
+  font-weight: 100;
+  font-size: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 30vh;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 100px white;
+
+  
+  
+  
+}
+div.bgc{
+  background-image: linear-gradient(45deg, #0026ff, #811400);
+  filter: blur(60px);
+  width: 70%;
+  height: 100px;
+  position: absolute;
+  margin-top: -400px;
+  
+  
+}
+.h-item2{
+    width: 80%;
+    height: 20vh;
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 2.6vw;
+    font-family:dileto;
+    text-align: center;
+  
+  
+  
+}
+.button{
+   width: 100%;
+    height: 20vh;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.button1{
+  border: none;
+  color: aliceblue;
+  font-size: 2vw ;
+  font-family: dileto;
+  width: 30%;
+  height: 7vh;
+  background-color: #811400;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  transition-duration: .1s;
+  
+  
+}
+.button1:hover{
+    
+  text-shadow: 2px 2px 8px whitesmoke,4px 4px 8px rgb(0, 0, 0);
+  box-shadow: 5px 5px 0px aliceblue,4px 4px 200px darkcyan ,-5px -5px 0px rgb(254, 254, 254),-4px -4px 200px darkcyan;
+  cursor: pointer;
+}
+
+.button1:hover::after{
+  content:"   ";
+  width: 20px;
+  height: 20px;
+  background-color:aliceblue;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 3px 10px 3px 80px ;
+  
+  
+  
+}
+.button1:hover::before{
+  content: "  ";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color:aliceblue;
+  left: -5px;
+  bottom: -5px;
+  border-radius:  3px 80px 3px 10px;
+  
+  
+  
+}
+.button2{
+  border: none;
+  color: aliceblue;
+  font-size: 2vw ;
+  font-family: dileto;
+  width: 40%;
+  height: 7vh;
+  background-color: #ff9900;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  transition-duration: .1s;
+}
+.button2:hover{
+  text-shadow: 2px 2px 8px whitesmoke,4px 4px 8px rgb(0, 0, 0);
+  box-shadow: 5px 5px 0px aliceblue,4px 4px 200px darkcyan ,-5px -5px 0px rgb(254, 254, 254),-4px -4px 200px darkcyan; 
+  cursor: pointer;   
+}
+.button2:hover::after{
+  content:"   ";
+  width: 20px;
+  height: 20px;
+  background-color:aliceblue;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+    border-radius: 3px 10px 3px 80px ;
+  }
+  .button2:hover::before{
+    content: "  ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:aliceblue;
+    left: -5px;
+    bottom: -5px;
+    border-radius:  3px 80px 3px 10px;
+    
+    
+  }
+  main{
+     
+      width: 100%;
+      height:100vh ;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      background-image: linear-gradient(-95deg, rgb(0, 0, 72), rgb(0, 114, 146));
+
+     
+    
+     
+     
+  }
+  .container-r , .container-l {
+    direction: rtl;
+    width: 400px;
+    height: 80%;
+    background-color: #ffffffa5;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+ .foodcard1 , .foodcard3{
+   text-decoration: none;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9900;
+    margin:  -5px 20px;
+    border-radius: 10px 0px 0px 10px ;
+
+
+  }
+  .foodcard2{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #811400;
+    margin: 20px;
+    border-radius:0px 10px 10px 0px  ;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  .foodcard4 , .foodcard6{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ff9900;
+    margin:-5px 20px;
+    border-radius: 0px 10px 10px 0px ;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+  }
+  .foodcard5  {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    background-color: #811400;
+    margin: 20px;
+    border-radius: 10px 0px 0px 10px ;
+    justify-content:  space-between;
+    align-items: center;
+    text-decoration: none;
+
+  }
+ 
+  .img1 , .img2 , .img3 , .img4 ,.img5 , .img6 {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition-duration: .5s;
+    
+  }
+  .img1{
+    background-image: url(../assets/images/soup.jpg);
+  }
+  .img2{
+    background-image: url(../assets/images/salad.webp);
+
+  }
+  .img3{
+    background-image: url(../assets/images/drink.jpg);
+  }
+  .img4{
+    background-image: url(../assets/images/pizza.jpg);
+  }
+  .img5{
+    background-image: url(../assets/images/poster_f77561e8-bde3-4920-88b3-beafa8e8d126.jpeg);
+  }
+  .img6{
+    background-image: url(../assets/images/pasta.jpg);
+  }
+  p.card-caption{
+    transition-duration: .2s;
+    margin: 0px auto;
+    color: aliceblue;
+    font-family:"dileto" ;
+    font-size: 1.8vw;
+  }
+  .foodcard1:hover div.img1   {
+    width: 40%;
+    
+  }
+  .foodcard2:hover div.img2  {
+    width: 40%;
+
+    
+  }
+  .foodcard3:hover div.img3   {
+    width: 40%;
+    
+  }
+  .foodcard4:hover div.img4  {
+    width: 40%;
+    
+  }
+  .foodcard5:hover div.img5   {
+    width: 40%;
+   
+    
+  }
+  .foodcard6:hover div.img6   {
+    width: 40%;
+    
+  }
+  .foodcard1:hover{
+    box-shadow: 2px 2px 10px #ffffff ,-2px -2px 10px #ffffff;
+  }
+  .foodcard1:hover p.card-caption{
+    color: #ff9900;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .foodcard2:hover{
+    box-shadow: 2px 2px 10px #ffffff ,-2px -2px 10px #ffffff;
+  }
+  .foodcard2:hover p.card-caption{
+    color: #811400;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .foodcard3:hover{
+    box-shadow: 2px 2px 10px #ffffff ,-2px -2px 10px #ffffff;
+  }
+  .foodcard3:hover p.card-caption{
+    color: #ff9900;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .foodcard4:hover{
+    box-shadow: 2px 2px 10px #ffffff ,-2px -2px 10px #ffffff;
+  }
+  .foodcard4:hover p.card-caption{
+    color: #ff9900;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .foodcard5:hover{
+    box-shadow: 2px 2px 10px #ffffff ,-2px -2px 10px #ffffff;
+  }
+  .foodcard5:hover p.card-caption{
+    color: #811400;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .foodcard6:hover{
+    box-shadow: 2px 2px 10px #ffffff ,-2px -2px 10px #ffffff;
+  }
+  .foodcard6:hover p.card-caption{
+    color: #ff9900;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
